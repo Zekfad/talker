@@ -87,7 +87,7 @@ extension FieldsToDisplay on TalkerData {
     if (stackTrace == null || stackTrace == StackTrace.empty) {
       return '';
     }
-    return '\nStackTrace: $stackTrace}';
+    return '\nStackTrace: $stackTrace';
   }
 
   /// Displayed exception of [TalkerData]
